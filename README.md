@@ -59,15 +59,6 @@ Install the matching CUDA builds of PyTorch and Torchaudio first, followed by th
 
 ### 2.1 Raw Data and Prepared Data
 
-Use two separate directories for the original files and generated data:
-
-| Directory | Contents |
-|---|---|
-| `data/dailytalk_raw/` | Original WAV recordings, transcript LAB files, and empathetic caption LAB files |
-| `data/dailytalk/` | Generated JSON/JSONL manifests and, after feature extraction, cached features |
-
-**Original WAV/LAB files remain in `data/dailytalk_raw/`; preparation does not copy them into `data/dailytalk/`.**
-
 Place the original files in [data/dailytalk_raw](data/dailytalk_raw) using the following structure:
 
 ```text
